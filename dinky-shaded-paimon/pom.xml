@@ -23,13 +23,13 @@ under the License.
     <artifactId>dinky-shaded-paimon</artifactId>
     <groupId>io.github.datalinkdc</groupId>
     <packaging>jar</packaging>
-    <version>${revision}</version>
+    <version>1.0.1</version>
     <name>Dinky : Shaded Paimon</name>
 
     <parent>
         <groupId>io.github.datalinkdc</groupId>
         <artifactId>dinky-shaded</artifactId>
-        <version>${revision}</version>
+        <version>1.0.1</version>
     </parent>
 
     <properties>

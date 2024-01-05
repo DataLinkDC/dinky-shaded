@@ -23,7 +23,7 @@
 
     <groupId>io.github.datalinkdc</groupId>
     <artifactId>dinky-shaded</artifactId>
-    <version>${revision}</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
     <description>dinky shaded</description>
 
@@ -37,7 +37,6 @@
     <inceptionYear>2021</inceptionYear>
 
     <properties>
-        <revision>1.0.0</revision>
         <shading.prefix>org.dinky</shading.prefix>
     </properties>
 
@@ -113,7 +112,7 @@
                         <version>1.6.7</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <serverId>sonatype-release</serverId>
+                            <serverId>sonatype-snapshots</serverId>
                             <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
